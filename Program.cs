@@ -6,7 +6,9 @@ namespace DuplicateFileFinder
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var inputHander = new InputHandler();
+
+            inputHander.Initialise();
         }
     }
 }
