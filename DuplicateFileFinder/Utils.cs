@@ -8,7 +8,7 @@ namespace DuplicateFileFinder
 		{
 			var response = string.Empty;
 
-			foreach(var message in messages)
+			foreach (var message in messages)
 			{
 				response += message + "\n";
 			}
